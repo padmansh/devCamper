@@ -8,7 +8,7 @@ const options = {
   httpAdapter: "https",
   formatter: null,
 };
-console.log(process.env.GEOCODER_API_KEY, "kiska h");
+//console.log(process.env.GEOCODER_API_KEY, "kiska h");
 
 const geocoder = NodeGeocoder(options);
 
